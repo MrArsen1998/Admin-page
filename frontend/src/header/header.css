@@ -1,0 +1,23 @@
+header .logo {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Cardo', serif;
+}
+
+header ul.nav {
+    float: right;
+    list-style: none;
+}
+
+header ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+header ul.nav li:hover {
+    opacity: 0.5;
+}

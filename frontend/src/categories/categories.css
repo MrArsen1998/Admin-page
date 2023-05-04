@@ -1,0 +1,28 @@
+.allItems{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoryNav{
+    list-style: none;
+}
+
+.categoryNav li {
+    color: rgb(255, 255, 255);
+    transition: opacity 500ms ease;
+    font-size: 20px;
+}
+
+.categoryNav li:hover{
+    opacity: 0.5;
+}
+
+
+.items H4 {
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+
+.items H4:hover{
+    opacity: 0.5;
+}
